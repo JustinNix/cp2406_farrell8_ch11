@@ -3,8 +3,11 @@ public abstract class DebugBoat
    String boatType = new String();
    int passengers;
    String power = new String();
+
+
    public DebugBoat(String bt)
    {
+
       boatType = bt;
    }
    // override equals() method to satisfy
@@ -20,8 +23,7 @@ public abstract class DebugBoat
    }
    public String toString()
    {
-      return("This " + boatType + "boat carries " + passengers +
-        " and is powered by " + power);
+      return("This " + boatType + "boat carries " + passengers + " and is powered by " + power);
    }
    public abstract void setPower();
    public abstract void setPassengers();
