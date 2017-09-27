@@ -1,15 +1,15 @@
 /**
  * Created by jc428352 on 20/09/17.
  */
-public class Fiction extends Book {
+public class NonFiction extends Book {
 
 
-    public Fiction(String t) {
+    public NonFiction(String t) {
         super(t);
     }
 
     @Override
     public void setPrice() {
-        price = 24.99;
+        price = 37.99;
     }
 }
